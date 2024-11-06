@@ -26,6 +26,10 @@ This project analyzes layoffs across various industries from 2020 to 2023 using 
 - **CTEs and Window Functions**: Employed Common Table Expressions (CTEs) for modular analysis and window functions like `RANK()` and `DENSE_RANK()` to rank industries based on various metrics.
 - **Joins**: Used joins to fill missing values and cross-check industry data, ensuring more robust data integrity.
 
+## Dataset
+- **File**: `layoffs.csv`
+- **Description**: The dataset contains records of layoffs from various companies between 2020 and 2023. It includes columns such as `company`, `industry`, `total_laid_off`, `percentage_laid_off`, `date`, and more.
+
 ## Key Insights
 - **Seasonal Layoffs**: Layoffs were more frequent during winter for industries such as consumer, retail, and finance. However, some industries like technology and healthcare also showed increased layoffs during spring and summer, indicating variability based on industry-specific factors.
 - **Funding Correlation**: Companies with higher funding tended to have a lower percentage of layoffs, suggesting that better financial standing can act as a buffer against layoffs. Layoff percentages equal to 1 were excluded from the analysis to provide a more focused view without including extreme edge cases. This was confirmed through a weighted scoring system that ranked companies based on both layoff percentage and funds raised.
@@ -33,6 +37,7 @@ This project analyzes layoffs across various industries from 2020 to 2023 using 
 
 ## Repository Structure
 - `layoffs_analysis.sql`: Contains all SQL queries used for data cleaning, transformation, and analysis.
+- `layoffs.csv`: Dataset used for the analysis.
 - `README.md`: Project overview, including steps taken, tools used, and key insights derived from the data.
 
 ## How to Run
