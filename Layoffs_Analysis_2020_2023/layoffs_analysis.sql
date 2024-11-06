@@ -456,7 +456,7 @@ WHERE percentage_laid_off != 1
 GROUP BY industry, YEAR(`date`)
 ORDER BY ROUND(avg(percentage_laid_off),2) DESC, YEAR(`date`);
 
--- using standard deviation to understand how much layoff percentages fluctuate withing a given year across different industries
+-- using standard deviation to understand how much layoff percentages fluctuate within a given year across different industries
 WITH industry_yearly_stats AS (
     SELECT industry,
            YEAR(`date`) AS year,
