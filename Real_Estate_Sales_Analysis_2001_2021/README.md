@@ -47,14 +47,16 @@ This project analyzed a Connecticut real estate sales dataset from 2001–2021, 
 
 ## Dataset
 - **File**: `Real_Estate_Sales_2001-2021_GL.csv`
-- **Description**: Contains real estate sales data from Connecticut, including fields such as:
-  - `List Year`
-  - `Date Recorded`
-  - `Town`
-  - `Sale Amount`
-  - `Assessed Value`
-  - `Sales Ratio`
-  - `Non Use Code`
+   - **Description**: A comprehensive dataset containing detailed real estate sales records from Connecticut for the years 2001-2021.
+   - **File Size**: Approximately 120 MB. Due to its size, it has been uploaded using Git Large File Storage (LFS).
+   - **Fields Included**:
+     - `List Year`
+     - `Date Recorded`
+     - `Town`
+     - `Sale Amount`
+     - `Assessed Value`
+     - `Sales Ratio`
+     - `Non Use Code`
 
 ---
 
@@ -73,12 +75,14 @@ This project analyzed a Connecticut real estate sales dataset from 2001–2021, 
 
 ## Repository Structure
 - `Real_Estate_Sales_2001-2021_GL.sql`: Contains all SQL queries used for data cleaning, transformation, and analysis.
-- `Real_Estate_Sales_2001-2021_GL.csv`: Dataset used for the analysis.
+- `Real_Estate_Sales_2001-2021_GL.csv`: Dataset used for the analysis. This file was uploaded using Git LFS due to its size.
 - `README.md`: Project overview, including steps taken, tools used, and key insights derived from the data.
 
 ---
 
 ## How to Run
-1. Import the `Real_Estate_Sales_2001-2021_GL.csv` dataset into a MySQL database.
-2. Run the SQL queries in `Real_Estate_Sales_2001-2021_GL.sql` sequentially to replicate the data cleaning and analysis.
-3. Review the results and insights from the output.
+1. Ensure you have **Git LFS** installed: [Git LFS Installation Guide](https://git-lfs.github.com/).
+2. Clone the repository. Git LFS will automatically handle the large dataset.
+3. Import the `Real_Estate_Sales_2001-2021_GL.csv` dataset into a MySQL database.
+4. Run the SQL queries in `Real_Estate_Sales_2001-2021_GL.sql` sequentially to replicate the data cleaning and analysis.
+5. Review the results and insights from the output.
