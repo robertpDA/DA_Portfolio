@@ -61,15 +61,33 @@ This project analyzed a Connecticut real estate sales dataset from 2001–2021, 
 ---
 
 ## Key Insights
-- **High-Performing Regions**:
-  - Towns like Hartford and Stamford ranked highest due to high demand, while Killingly and Plainfield stood out for affordability and growth trends.
-  - Top 10 towns (in order): Hartford, Stamford, Waterbury, Bridgeport, New Haven, Killingly, New Britain, Plainfield, Milford, West Hartford.
-- **Sales Seasonality**:
-  - Summer months (June, July, August) showed the highest market activity, making them the best time to sell.
-  - Winter months (January, February, March) showed the lowest activity and average sale amounts.
+
+### High-Performing Regions
+- Towns like **Hartford** and **Stamford** ranked highest, driven by high demand and robust market dynamics. Hartford stood out for its high SAR, while Stamford showed strong transaction volume and competitive selling times.
+- Smaller towns like **Killingly** and **Plainfield** were notable for their affordability and recent growth, suggesting niche markets or emerging demand trends.
+- **Top 10 towns (in order)**: Hartford, Stamford, Waterbury, Bridgeport, New Haven, Killingly, New Britain, Plainfield, Milford, West Hartford.
+- **Methodology**: Rankings were based on the **Sale Amount/Assessed Value (SAR)** ratio (85% weight) and average years to sell (15% weight). The lower weight for years to sell reflects the limitation of only having the listing year, not the full date, which reduced precision in the calculation.
+
+### Sales Seasonality
+#### Optimal Selling Periods:
+- **Summer months (June, July, August)** exhibited the highest transaction volumes and average sale prices, making them the best time to sell.
+- June ranked highest overall, followed by July and August, indicating peak market activity during these months.
+
+#### Low Activity Periods:
+- **Winter months (January, February, March)** had the lowest market activity, characterized by reduced transaction counts and lower average sale prices.
+
+#### Moderate Periods:
+- **Spring (April, May)** and **early autumn (September, October)** saw moderate activity, serving as transitions between high and low seasons.
+
+#### Interpretation:
+- Summer demand may be linked to **favorable weather**, **family relocation timing**, and **school planning**, while winter lulls could result from **holiday distractions** and **harsher weather**.
+
 - **Price Trends**:
-  - Prices were lowest during 2001 (post-9/11 recession) and the Great Recession (2008-2009).
-  - Record-high prices in 2021, driven by low interest rates and pandemic-related demand.
+  - **2001–2007 Growth**: Steady price increases peaked in 2007 due to the housing bubble fueled by easy credit and high demand.
+  - **2008–2009 Drop**: The financial crisis caused a sharp decline in prices, with 2009 marking the lowest values post-bubble.
+  - **2010–2015 Recovery**: Gradual recovery followed, though uneven due to Connecticut's fiscal challenges and population outmigration.
+  - **2016 Dip**: Prices fell slightly, reflecting ongoing state-specific economic difficulties.
+  - **2020–2022 Surge**: Pandemic-driven demand for suburban housing and low mortgage rates led to record-high prices, with 2022 as the peak.
 
 ---
 
