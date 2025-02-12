@@ -99,10 +99,10 @@ To complement the SQL-based analysis, an interactive **Tableau dashboard** was c
 👉 **[View on Tableau Public](https://public.tableau.com/app/profile/robert.papai)**
 
 ### **What’s Included?**
-- **Best Time to Sell for Maximum Profit** 📈 (Based on Sales Amount/Assessed Value ratio)
-- **Sales & Assessed Value Trends** 💰 (Tracking property price changes from 2001–2021)
-- **Sales Seasonality** 📊 (Identifying the most active months for real estate transactions)
-- **Interactive Map** 🗺️ (Filter by town to explore regional trends)
+- **Best Time to Sell for Maximum Profit** (Based on Sales Amount/Assessed Value ratio)
+- **Sales & Assessed Value Trends** (Tracking property price changes from 2001–2021)
+- **Sales Seasonality** (Identifying the most active months for real estate transactions)
+- **Interactive Map** (Filter by town to explore regional trends)
 
 This visualization allows users to **interactively explore the data** and gain insights into the real estate market over two decades.
 
