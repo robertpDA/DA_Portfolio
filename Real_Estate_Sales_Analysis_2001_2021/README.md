@@ -91,20 +91,23 @@ This project analyzed a Connecticut real estate sales dataset from 2001–2021, 
 
 ---
 
-## 📊 Interactive Tableau Dashboard
+## Interactive Tableau Dashboard
 
 To complement the SQL-based analysis, an interactive **Tableau dashboard** was created to visualize key trends in the Connecticut real estate market.
 
 ### 🔍 **Explore the Dashboard**
 👉 **[View on Tableau Public](https://public.tableau.com/app/profile/robert.papai)**
 
-### 🏡 **What’s Included?**
+### **What’s Included?**
 - **Best Time to Sell for Maximum Profit** 📈 (Based on Sales Amount/Assessed Value ratio)
 - **Sales & Assessed Value Trends** 💰 (Tracking property price changes from 2001–2021)
 - **Sales Seasonality** 📊 (Identifying the most active months for real estate transactions)
 - **Interactive Map** 🗺️ (Filter by town to explore regional trends)
 
 This visualization allows users to **interactively explore the data** and gain insights into the real estate market over two decades.
+
+### **Dashboard Preview:**
+![When To Sell? Dashboard](CT_Real_Estate_Market_Analysis.png)
 
 ---
 
