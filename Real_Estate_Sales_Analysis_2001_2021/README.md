@@ -1,7 +1,7 @@
 # Real Estate Sales Analysis (2001-2021)
 
 ## Project Description
-This project analyzed a Connecticut real estate sales dataset from 2001–2021, focusing on identifying high-performing regions, analyzing seasonal trends, and exploring price fluctuations year by year. The data underwent rigorous cleaning and standardization, ensuring the results were reliable and actionable. Key findings include summer as the optimal selling period, Hartford and Stamford as top-performing towns, and a pandemic-driven price surge in 2021–2022. SQL techniques such as CTEs, window functions, and data transformation were employed to derive insights.
+This project analysed a Connecticut real estate sales dataset from 2001–2021, focusing on identifying high-performing regions, analysing seasonal trends, and exploring price fluctuations year by year. The data underwent rigorous cleaning and standardisation, ensuring the results were reliable and actionable. Key findings include summer as the optimal selling period, Hartford and Stamford as top-performing towns, and a pandemic-driven price surge in 2021–2022. SQL techniques such as CTEs, window functions, and data transformation were employed to derive insights.
 
 ---
 
@@ -9,9 +9,9 @@ This project analyzed a Connecticut real estate sales dataset from 2001–2021, 
 
 1. **Data Cleaning**:
    - **Removed Duplicates**: Used `ROW_NUMBER()` to identify and confirm there were no duplicate records in the dataset.
-   - **Standardized Data**:
+   - **Standardised Data**:
      - Converted `Date Recorded` from text to date format.
-     - Standardized columns like `Town` and `Non Use Code`, ensuring consistent and meaningful values.
+     - Standardised columns like `Town` and `Non Use Code`, ensuring consistent and meaningful values.
    - **Handled Null Values**:
      - Removed rows where critical fields like `Sale Amount` or `Assessed Value` were zero or missing.
      - Fixed invalid or missing `Non Use Code` entries.
@@ -31,7 +31,7 @@ This project analyzed a Connecticut real estate sales dataset from 2001–2021, 
        - **15% Years-to-Sell Rank**: Adjusted for average selling times.
      - Identified the top 10 towns with high SAR and competitive selling times.
    - **Sales Seasonality**:
-     - Analyzed transaction volumes and average sale amounts across months.
+     - Analysed transaction volumes and average sale amounts across months.
      - Identified summer (June, July, August) as the optimal selling period.
    - **Price Trends**:
      - Examined yearly average sale prices and the influence of major economic events (e.g., 2008 recession, 2021 pandemic-driven housing boom).
@@ -74,16 +74,16 @@ This project analyzed a Connecticut real estate sales dataset from 2001–2021, 
 - June ranked highest overall, followed by July and August, indicating peak market activity during these months.
 
 #### Low Activity Periods:
-- **Winter months (January, February, March)** had the lowest market activity, characterized by reduced transaction counts and lower average sale prices.
+- **Winter months (January, February, March)** had the lowest market activity, characterised by reduced transaction counts and lower average sale prices.
 
 #### Moderate Periods:
 - **Spring (April, May)** and **early autumn (September, October)** saw moderate activity, serving as transitions between high and low seasons.
 
 #### Interpretation:
-- Summer demand may be linked to **favorable weather**, **family relocation timing**, and **school planning**, while winter lulls could result from **holiday distractions** and **harsher weather**.
+- Summer demand may be linked to **favourable weather**, **family relocation timing**, and **school planning**, while winter lulls could result from **holiday distractions** and **harsher weather**.
 
 - **Price Trends**:
-  - **2001–2007 Growth**: Steady price increases peaked in 2007 due to the housing bubble fueled by easy credit and high demand.
+  - **2001–2007 Growth**: Steady price increases peaked in 2007 due to the housing bubble fuelled by easy credit and high demand.
   - **2008–2009 Drop**: The financial crisis caused a sharp decline in prices, with 2009 marking the lowest values post-bubble.
   - **2010–2015 Recovery**: Gradual recovery followed, though uneven due to Connecticut's fiscal challenges and population outmigration.
   - **2016 Dip**: Prices fell slightly, reflecting ongoing state-specific economic difficulties.
@@ -93,7 +93,7 @@ This project analyzed a Connecticut real estate sales dataset from 2001–2021, 
 
 ## Interactive Tableau Dashboard
 
-To complement the SQL-based analysis, an interactive **Tableau dashboard** was created to visualize key trends in the Connecticut real estate market.
+To complement the SQL-based analysis, an interactive **Tableau dashboard** was created to visualise key trends in the Connecticut real estate market.
 
 ### 🔍 **Explore the Dashboard**
 👉 **[View on Tableau Public](https://public.tableau.com/app/profile/robert.papai)**
@@ -104,7 +104,7 @@ To complement the SQL-based analysis, an interactive **Tableau dashboard** was c
 - **Sales Seasonality** (Identifying the most active months for real estate transactions)
 - **Interactive Map** (Filter by town to explore regional trends)
 
-This visualization allows users to **interactively explore the data** and gain insights into the real estate market over two decades.
+This visualisation allows users to **interactively explore the data** and gain insights into the real estate market over two decades.
 
 ### **Dashboard Preview:**
 ![When To Sell? Dashboard](CT_Real_Estate_Market_Analysis.png)
